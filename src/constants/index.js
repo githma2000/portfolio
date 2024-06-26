@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated front-end developer
- with a strong focus on creating stunning, user-friendly web interfaces. My journey in web development
-  began with a fascination for how design and functionality can come together to create seamless user
- experiences. Over the years, I've honed my skills in various technologies and frameworks to bring ideas to life on the web.`;
+export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated front-end developer with a strong focus on creating 
+stunning, user-friendly web interfaces. My journey in web development began with a fascination for how design and functionality can come 
+together to create seamless user experiences. Over the years, I've honed my skills in various technologies and frameworks such as React, 
+vite.js mastering the art of responsive design and performance optimization. With hands-on experience in building scalable web applications and a keen eye for detail, I thrive on transforming complex ideas into intuitive solutions that delight users.`;
 export const ABOUT_TEXT = `I am a passionate and dedicated Front End Developer. With a keen eye for design
  and a strong technical foundation, I specialize in creating visually appealing and highly functional web applications. My journey 
  in web development began with a fascination for how websites work, and over the years, I've honed my skills to transform creative 
