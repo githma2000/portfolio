@@ -3,19 +3,28 @@ import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import { motion } from 'framer-motion'
 
 const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-6' >
-        <div className='flex flex-shrink-0 items-center'>
+        <motion.div 
+        whileInView={{ opacity: 1, y: 0}}
+        initial={{ opacity: 0, y: -100}}
+        transition={{ duration: 0.5}}
+        className='flex flex-shrink-0 items-center'>
             <img src={logo} alt="logo" style={{ width: '150px', height: 'auto' }} />
-        </div>
-        <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        </motion.div>
+        <motion.div
+         whileInView={{ opacity: 1, y: 0}}
+        initial={{ opacity: 0, y: -100}}
+        transition={{ duration: 0.5}}
+         className="m-8 flex items-center justify-center gap-4 text-2xl mr-4">
           <FaLinkedin />
           <FaGithub />
           <FaTwitter />
           <FaInstagram />
-        </div>
+        </motion.div>
     </nav>
   );
 }
