@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-8 text-6xl font-thin tracking-light lg:mt-18 lg:text-7xl">
+              className="pb-8 text-7xl font-thin tracking-medium lg:mt-18 lg:text-7xl">
               Githma Manthinie
             </motion.h1>
             <motion.span
@@ -30,13 +30,13 @@ const Hero = () => {
               animate="visible"
              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
             bg-clip-text text-4xl tracking-tight text-transparent">
-              Front End Developer | Data Science Enthusiast
+              Computer Science Undergraduate(B.Sc Reading)
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible" 
-              className="my-2 max-w-xl py-8 font-light tracking-tighter">{HERO_CONTENT}
+              className="my-8  max-w-xl py-12">{HERO_CONTENT}
             </motion.p>
           </div>
         </div>
