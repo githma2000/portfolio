@@ -36,18 +36,18 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible" 
-              className="my-8  max-w-xl py-12">{HERO_CONTENT}
+              className="my-8  max-w-xl py-14">{HERO_CONTENT}
             </motion.p>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-right">
           <motion.img 
             initial={{ x: 100, opacity: 0}}
             animate={{ x: 0, opacity: 1}}
             transition={{ duration: 1, delay: 1.2}}
             src={profilePic}
             alt="Githma Manthinie"
-            className="w-80 h-100  rounded-tl-3xl rounded-br-3xl shadow-lg"
+            className="w-84 h-96  rounded-tl-3xl rounded-br-3xl shadow-lg"
           />
         </div>
       </div>
