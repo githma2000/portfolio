@@ -3,9 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpeg";
+import project6 from "../assets/projects/project-6.jpeg";
+import project7 from "../assets/projects/project-7.jpg";
 
-export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated professional with a strong focus on Data Science,
- Data Engineering, Machine Learning, and Software Engineering. My journey in technology began with a fascination for how data and 
+export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated professional with a strong focus on <b>Data Science,
+ Data Engineering, Machine Learning,</b> and <b>Software Engineering</b>. My journey in technology began with a fascination for how data and 
  software solutions can work together to solve complex problems and drive innovation. Over the years, I've honed my skills in various 
  tools and frameworks, mastering the art of building efficient algorithms, predictive models, and scalable systems. With hands-on
   experience in analyzing data trends, designing robust architectures, and optimizing performance, I thrive on transforming raw data
@@ -39,6 +41,27 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Plant disease detection using CNN",
+    image: project6,
+    description:
+      "The project is to predict the plants disese.It uses image proccesing,deep learning to fullfill the projects goal.",
+    technologies: ["python", "image processing"],
+  },
+  {
+    title: "Spam Mail Detection System",
+    image: project5,
+    description:
+      "This project utilizes linear regression for spam mail detection, implemented in Google Colab. It aims to accurately classify emails as spam or not spam using a data-driven approach.",
+    technologies: ["python", "pandas", "numpy", "scikit-learn"],
+  },
+  {
+    title: "Social Robot",
+    image: project7,
+    description:
+      " Developed a personal assistant robot using Arduino and Gemini(AI) that moves, identifies people, speaks, and answers questions using Gemini(AI)",
+    technologies: ["GemeniAI", "python", "openCV", "arduino"],
+  },
+  {
     title: "Weather App",
     image: project1,
     description:
@@ -66,13 +89,6 @@ export const PROJECTS = [
       "Experience efficiency in healthcare with my C-based Hospital Management System. This project optimizes hospital operations through robust management of patient records, appointments, and staff administration, ensuring streamlined workflows and improved patient care delivery.",
     technologies: ["C"],
   },
-  {
-    title: "Spam Mail Detection System",
-    image: project5,
-    description:
-      "This project utilizes linear regression for spam mail detection, implemented in Google Colab. It aims to accurately classify emails as spam or not spam using a data-driven approach.",
-    technologies: ["python", "pandas", "numpy", "scikit-learn"],
-  },
 ];
 
 export const ExtraCurricular = {};
@@ -81,6 +97,6 @@ export const CONTACT = {
   address: "293/1, yahampath Mawatha, Godigamuwa, Mahargama ",
   phoneNo: "+94772282726",
   email: "githma00@gmail.com",
-  linkedin: "www.linkedin.com/in/githma-manthinie",
+  linkedin: "www.linkedin.com/in/githma",
   github: "https://github.com/githma2000",
 };
