@@ -2,17 +2,24 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpeg";
 
-export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated front-end developer with a strong focus on creating 
-stunning, user-friendly web interfaces. My journey in web development began with a fascination for how design and functionality can come 
-together to create seamless user experiences. Over the years, I've honed my skills in various technologies and frameworks such as React, 
-vite.js mastering the art of responsive design and performance optimization. With hands-on experience in building scalable web applications and a keen eye for detail, I thrive on transforming complex ideas into intuitive solutions that delight users.`;
-export const ABOUT_TEXT = `I am a passionate and dedicated Front End Developer. With a keen eye for design
- and a strong technical foundation, I specialize in creating visually appealing and highly functional web applications. My journey 
- in web development began with a fascination for how websites work, and over the years, I've honed my skills to transform creative 
- ideas into digital reality.I thrive on challenges and enjoy solving complex problems with elegant solutions. My expertise includes
-  HTML, CSS, JavaScript, and modern frameworks like React. I am constantly learning and staying up-to-date with the latest industry 
-  trends to ensure that my work remains at the cutting edge of web development.`;
+export const HERO_CONTENT = `Hello! I'm Githma Manthinie, a passionate and dedicated professional with a strong focus on Data Science,
+ Data Engineering, Machine Learning, and Software Engineering. My journey in technology began with a fascination for how data and 
+ software solutions can work together to solve complex problems and drive innovation. Over the years, I've honed my skills in various 
+ tools and frameworks, mastering the art of building efficient algorithms, predictive models, and scalable systems. With hands-on
+  experience in analyzing data trends, designing robust architectures, and optimizing performance, I thrive on transforming raw data
+   into actionable insights and intuitive software solutions that enhance user experiences. I’m driven by the challenge of bringing
+    cutting-edge technology to life, and I’m eager to contribute my expertise to impactful projects.`;
+export const ABOUT_TEXT = `I am Githma Manthinie, a fourth-year undergraduate student specializing in Computer Science at the University
+ of Sri Jayewardenepura. My academic journey has instilled in me a deep passion for data science, supported by a strong background in 
+ mathematics and statistics. I am dedicated to leveraging data-driven approaches to uncover insights and solve real-world problems.
+
+Throughout my studies, I have developed proficiency in a range of technologies and methodologies, from Python and R to React and machine learning frameworks.
+ My hands-on experience includes projects involving web development, data analysis, and advanced machine learning techniques. I am constantly seeking new
+  opportunities to apply my skills, drive innovation, and contribute to meaningful projects in the field of data science.
+
+Feel free to explore my portfolio to learn more about my work, achievements, and the projects that fuel my passion for technology and data science.`;
 export const EXPERIENCES = [
   {
     year: "Feb 2020 - Nov 2020",
@@ -59,10 +66,21 @@ export const PROJECTS = [
       "Experience efficiency in healthcare with my C-based Hospital Management System. This project optimizes hospital operations through robust management of patient records, appointments, and staff administration, ensuring streamlined workflows and improved patient care delivery.",
     technologies: ["C"],
   },
+  {
+    title: "Spam Mail Detection System",
+    image: project5,
+    description:
+      "This project utilizes linear regression for spam mail detection, implemented in Google Colab. It aims to accurately classify emails as spam or not spam using a data-driven approach.",
+    technologies: ["python", "pandas", "numpy", "scikit-learn"],
+  },
 ];
+
+export const ExtraCurricular = {};
 
 export const CONTACT = {
   address: "293/1, yahampath Mawatha, Godigamuwa, Mahargama ",
   phoneNo: "+94772282726",
   email: "githma00@gmail.com",
+  linkedin: "www.linkedin.com/in/githma-manthinie",
+  github: "https://github.com/githma2000",
 };
